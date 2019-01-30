@@ -1,0 +1,158 @@
+body {
+  height: 100% !important;
+}
+
+
+
+.navbar {
+  margin-bottom: 0 !important;
+  background: transparent !important;
+  border: none !important;
+  padding: 10px;
+  color: #FFF;
+  font-size: 1.3em;
+  border: 0;
+  z-index: 2;
+}
+
+#main-img {
+  position: relative;
+  bottom: 80px;
+}
+
+#main-img>img {
+  width: 100%;
+}
+
+.nav.navbar-nav.navbar-right li a {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-left: 3px;
+  margin-top: 2px;
+}
+
+.nav.navbar-nav.navbar-right li a.active {
+  background: inherit;
+  border: 2px solid white;
+}
+
+.nav.navbar-nav.navbar-right li a:hover {
+  border: 2px solid white;
+}
+
+#lower-container {
+  background: #98D2E6;
+  background: -webkit-linear-gradient( #98D2E6, #A9D6DB);
+  background: -o-linear-gradient(#98D2E6, #A9D6DB);
+  background: linear-gradient( #98D2E6, #A9D6DB);
+  height: 300px;
+  position: relative !important;
+  bottom: 80px;
+}
+
+#lower-container h1 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 3px;
+  padding-bottom: 5px;
+
+}
+
+footer {
+  background: -webkit-linear-gradient( #98D2E6, #A9D6DB);
+  background: -o-linear-gradient(#98D2E6, #A9D6DB);
+  background: #A9D6DB;
+  padding: 3%;
+  color: white;
+  position: relative;
+  bottom: 80px;
+  text-align: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 25px !important;
+  color: white;
+}
+
+.fa:hover {
+  text-decoration: none;
+  color: #D5D5D5;
+}
+
+.fa:visited {
+  color: white;
+}
+
+h3 h4 {
+  text-align: center !important;
+}
+
+#kol-logo {
+  max-height: 200px !important;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media screen and (max-width: 767px) {
+  .navbar {
+    padding: 0px;
+  }
+  .nav.navbar-nav.navbar-right li a {
+    display: inline;
+  }
+  .nav.navbar-nav.navbar-right li {
+    margin-bottom: 10px;
+    margin-top: 25px;
+  }
+  .navbar {
+    margin-bottom: 0 !important;
+    background: linear-gradient(to right, #A9D6DB, #98D2E6) !important;
+    border: none !important;
+    padding: 10px;
+    color: #FFF;
+    font-size: 1.3em;
+    border: 0;
+  }
+  .navbar button {
+    background: #a9d6db;
+    border: 1px 1px 1px solid white;
+  }
+  .navbar button:enabled {
+    background: #98D2E6 !important;
+    border: 1px 1px 1px solid white;
+  }
+  #main-img {
+    position: relative;
+    bottom: 0;
+  }
+  #lower-container {
+    height: 100%;
+    position: relative !important;
+    bottom: 0;
+  }
+
+  #lower-container h1 {
+    font-size: 20px;
+  }
+  footer {
+    position: relative !important;
+    bottom: 0;
+    padding: 50px;
+  }
+  .fa {
+    padding: 10px;
+    font-size: 20px !important;
+  }
+  #kol-logo {
+    max-height: 200px !important;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

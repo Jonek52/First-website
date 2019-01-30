@@ -1,0 +1,209 @@
+body {
+    height: 100% !important;
+  }
+  
+  .navbar {
+    margin-bottom: 0 !important;
+    background: transparent !important;
+    border: none !important;
+    padding: 10px;
+    color: #FFF;
+    font-size: 1.3em;
+    border: 0;
+    z-index: 2;
+  }
+  
+  #main-img {
+    position: relative;
+    bottom: 80px;
+  }
+  
+  #main-img>img {
+    width: 100%;
+    max-height: 1200px;
+  }
+  
+  .nav.navbar-nav.navbar-right li a {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 3px;
+    margin-top: 2px;
+  }
+  
+  .nav.navbar-nav.navbar-right li a.active {
+    background: inherit;
+    border: 2px solid white;
+  }
+  
+  .nav.navbar-nav.navbar-right li a:hover {
+    border: 2px solid white;
+  }
+  
+  #lower-container {
+    background: #98D2E6;
+
+    background-image: webkit-gradient(linear, left top, left bottom, from(#D4984F), #F7DFB3 );
+    background-image: -webkit-linear-gradient(bottom, #D4984F, #F7DFB3);
+    background-image: -moz-linear-gradient(bottom, #D4984F, #F7DFB3);
+    background-image: linear-gradient(to bottom, #D4984F, #F7DFB3) !important;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    position: relative !important;
+    bottom: 80px;
+  }
+
+  #lower-container {
+      text-align: center;
+  }
+  #lower-container img {
+    width: 100%;
+    height: 100%;
+    max-height: 328px;
+    margin: 15px;
+    margin-top: 70px;
+}
+
+  
+  #lower-container h1 {
+    
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 3px;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 1px solid white;
+    
+  
+  }
+  
+  #lower-container p {
+
+    color: white;
+    padding: 10px;
+    margin: 20px auto;
+  }
+  footer {
+    background-image: -webkit-linear-gradient(to top, #D4984F, #F7DFB3);
+    background-image: -moz-linear-gradient(top, #D4984F, #F7DFB3);
+    background-image: linear-gradient(to top, #D4984F, #F7DFB3) !important;
+    background-image: linear-gradient(to top, #D4984F, #F7DFB3) !important;
+    
+    background: #A9D6DB;
+    padding: 3%;
+    color: white;
+    position: relative;
+    bottom: 80px;
+    text-align: center;
+  }
+  
+  .fa {
+    padding: 20px;
+    font-size: 25px !important;
+    color: white;
+  }
+  
+  .fa:hover {
+    text-decoration: none;
+    color: #D5D5D5;
+  }
+  
+  .fa:visited {
+    color: white;
+  }
+  
+  h3 h4 {
+    text-align: center !important;
+  }
+  
+  #kol-logo {
+    max-height: 200px !important;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  } 
+  figcaption {
+    color: white;
+    
+}
+
+  @media screen and (max-width: 767px) {
+    .navbar {
+      padding: 0px;
+    }
+    .nav.navbar-nav.navbar-right li a {
+      display: inline;
+    }
+    .nav.navbar-nav.navbar-right li {
+      margin-bottom: 10px;
+      margin-top: 25px;
+    }
+    .navbar {
+      margin-bottom: 0 !important;
+      background-image: webkit-gradient(linear, left top, left bottom, from(#D4984F), #F7DFB3 );
+      background-image: -webkit-linear-gradient(top, #D4984F, #F7DFB3);
+      background-image: -moz-linear-gradient(top, #D4984F, #F7DFB3);
+      background-image: linear-gradient(to top, #D4984F, #F7DFB3) !important;
+      border: none !important;
+      padding: 10px;
+      color: #FFF;
+      font-size: 1.3em;
+      border: 0;
+    }
+
+    .navbar button:enabled {
+        background-image: linear-gradient(to top, #D4984F, #F7DFB3) !important;
+      border: 1px 1px 1px solid white;
+    }
+    #main-img {
+      position: relative;
+      bottom: 0;
+    }
+    #lower-container {
+      height: 100%;
+      position: relative !important;
+      bottom: 0;
+    }
+
+    #lower-container img {
+        margin: 20px auto !important;
+        margin-top: 50px !important;
+    }
+  
+    #lower-container h1 {
+      font-size: 20px;
+    }
+    footer {
+      position: relative !important;
+      bottom: 0;
+      padding: 50px;
+    }
+    .fa {
+      padding: 10px;
+      font-size: 20px !important;
+    }
+    #kol-logo {
+      max-height: 200px !important;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    
+    #lower-container img {
+      max-width: 300px !important;
+  }
+  
+  }
+
+  @media screen and (max-width: 991px) {
+    #lower-container img {
+      max-width: 400px !important;
+      margin: 20px auto;
+  }
+  }
+  

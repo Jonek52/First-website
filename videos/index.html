@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <title>Projekt</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles/styles.css" type="text/css">
+  <link rel="stylesheet" href="../styles/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://www.youtube.com/iframe_api"></script>
+  
+
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class = "navbar-header">
+          <button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#myNavBar">
+            <span class = "icon-bar"></span>
+            <span class = "icon-bar"></span>
+            <span class = "icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id = "myNavBar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about the band/index.html">About the band</a></li>
+            <li><a class = "active" href="#">Videos</a></li>
+            <li><a href="../tours/index.html">Tours</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="main-img">
+      <img class = "img-responsive" src="images\Kings-of-Leon.jpg" alt="">
+    </div>
+
+
+    <div id="lower-container" class = "container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                    <div class="video-wrapper embed-responsive embed-responsive-16by9">
+                            <iframe class = "embed-responsive-item" width="560" height="315" src="https://www.youtube-nocookie.com/embed/AmAaWCFlxEE" frameborder="0" allowfullscreen></iframe>
+                    </div>
+            </div>
+            <div class="col-md-4">
+                    <div class="video-wrapper embed-responsive embed-responsive-16by9">
+                            <iframe class = "embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/xOQ7rolBbq8" frameborder="0" allowfullscreen></iframe>
+                    </div>
+            </div>
+            <div class="col-md-4">
+                    <div class="video-wrapper embed-responsive embed-responsive-16by9">
+                            <iframe class = "embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/ldaMJG_sb18" frameborder="0" allowfullscreen></iframe>
+                    </div>
+            </div>
+            
+           
+        </div>
+    </div>
+    <footer class="container-fluid text-center">
+      <div class="container">
+      <div class="row">
+        <div class = "col-sm-4">
+          <h3>Contact Us</h3>
+          <h4>Our manager address and contact info here</h4>
+        </div>
+        <div class = "col-sm-4">
+          <h3>Connect with us</h3>
+          <a href="https://www.facebook.com/KingsOfLeon/" class = "fa fa-facebook"></a>
+          <a href="https://twitter.com/kingsofleon" class = "fa fa-twitter"></a>
+          <a href="https://www.youtube.com/user/kingsofleonVEVO" class = "fa fa-youtube"></a>
+          <a href="https://www.instagram.com/kingsofleon/" class = "fa fa-instagram"></a>
+        </div>
+        <div class = "col-sm-4">
+          <img id = "kol-logo" class = "img-responsive" src="..\images\KOL17-VIP-logo640-e1491836098770.png" alt="Logo">
+        </div>
+      </div>
+      </div>
+    </footer>
+
+    <script>
+     $('.carousel').carousel({
+      interval: 7000
+     });
+    </script>
+</body>
+</html>
